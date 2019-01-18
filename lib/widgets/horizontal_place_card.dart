@@ -32,7 +32,7 @@ class HorizontalPlaceCard extends StatelessWidget {
       elevation: 8,
       borderRadius: BorderRadius.all(Radius.circular(16)),
       child: Container(
-        height: 128,
+        height: 140,
         child: ClipRRect(
           borderRadius: BorderRadius.all(Radius.circular(16)),
           child: Stack(
@@ -44,7 +44,7 @@ class HorizontalPlaceCard extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                     width: 128,
-                    height: 128,
+                    height: 140,
                   ),
                   Expanded(
                     flex: 1,
@@ -80,7 +80,7 @@ class HorizontalPlaceCard extends StatelessWidget {
                           ),
                           Text("\$${price??0} - ${priceDescription ?? ''}",
                             style: Theme.of(context).textTheme.display2.copyWith(
-                              fontSize: 18,
+                              fontSize: 16,
                               fontWeight: FontWeight.w700,
                             ),
                           ),
